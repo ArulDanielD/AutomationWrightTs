@@ -39,10 +39,6 @@ test("Confirmed box", async({page})=>
 
 test.only("Modal alert", async ({ page }) => {
     await page.goto("https://www.lambdatest.com/selenium-playground/bootstrap-modal-demo")
-    page.on("dialog",async(alert)=>{ //listneres
-        const text=alert.defaultValue();
-        console.log("TEXT MESSAGE :"+text);
-        await page.click("(//button[text()='Save Changes'])[1]")
-    })
     await page.click("//button[@data-target='#myModal']")
+    await page.click("(//button[text()='Save Changes'])[1]")
 })

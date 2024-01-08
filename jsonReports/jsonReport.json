@@ -47,7 +47,7 @@
         "testDir": "e:/AutomationPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/alerts.test.ts"
+          "tests/select.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\alerts.test.ts",
-      "file": "tests/alerts.test.ts",
+      "title": "tests\\select.test.ts",
+      "file": "tests/select.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Modal alert",
+          "title": "Bootstrap dropdown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,22 +80,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1435,
+                  "duration": 22176,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-08T10:03:41.385Z",
+                  "startTime": "2024-01-08T11:58:06.685Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-alerts-Modal-alert\\test-finished-1.png"
+                      "path": "e:\\AutomationPlaywright\\test-results\\tests-select-Bootstrap-dropdown\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-alerts-Modal-alert\\video.webm"
+                      "path": "e:\\AutomationPlaywright\\test-results\\tests-select-Bootstrap-dropdown\\video.webm"
                     }
                   ]
                 }
@@ -103,9 +103,9 @@
               "status": "expected"
             }
           ],
-          "id": "addb81fc64a6c6200bbb-d6333e2d199a94aa5adb",
-          "file": "tests/alerts.test.ts",
-          "line": 40,
+          "id": "6cba8bde468bb163f809-61cc326ed87c06b234f6",
+          "file": "tests/select.test.ts",
+          "line": 26,
           "column": 6
         }
       ]
@@ -113,8 +113,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-08T10:03:40.668Z",
-    "duration": 2890.5280000000002,
+    "startTime": "2024-01-08T11:58:05.844Z",
+    "duration": 23740.159000000003,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

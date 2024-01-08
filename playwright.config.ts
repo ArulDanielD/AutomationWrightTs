@@ -2,7 +2,7 @@ import { PlaywrightTestConfig} from '@playwright/test';
 
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/alerts.test.ts"],
+  testMatch: ["tests/select.test.ts"],
   use: {
     headless: false,
     screenshot: "on",
