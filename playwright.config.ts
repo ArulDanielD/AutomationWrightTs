@@ -2,8 +2,9 @@ import { PlaywrightTestConfig} from '@playwright/test';
 
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/frame.test.ts"],
+  testMatch: ["pomtest/LoginRegistration.test.ts"],
   use: {
+    baseURL:"https://ecommerce-playground.lambdatest.io/index.php?",
     headless: false,
     screenshot: "on",
     video:"on"

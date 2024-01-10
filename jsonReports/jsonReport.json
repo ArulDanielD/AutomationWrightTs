@@ -47,7 +47,7 @@
         "testDir": "e:/AutomationPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/frame.test.ts"
+          "pomtest/addToCart.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\frame.test.ts",
-      "file": "tests/frame.test.ts",
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Frames",
+          "title": "Add to cart test_02",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,26 +80,26 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13138,
+                  "duration": 6361,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "TOtal count of frames: 22\n"
+                      "text": "**********************My Account\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-10T04:41:32.231Z",
+                  "startTime": "2024-01-10T12:22:18.994Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-frame-Frames\\test-finished-1.png"
+                      "path": "e:\\AutomationPlaywright\\test-results\\pomtest-addToCart-Add-to-cart-test-02\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-frame-Frames\\video.webm"
+                      "path": "e:\\AutomationPlaywright\\test-results\\pomtest-addToCart-Add-to-cart-test-02\\video.webm"
                     }
                   ]
                 }
@@ -107,18 +107,18 @@
               "status": "expected"
             }
           ],
-          "id": "fff2b3a5756d8dacc7f1-4108898b4d0dfc80fd62",
-          "file": "tests/frame.test.ts",
-          "line": 3,
-          "column": 5
+          "id": "1c188a18f2ecab048a02-e103b082d8494033a50f",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 35,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-10T04:41:30.910Z",
-    "duration": 15781.599000000002,
+    "startTime": "2024-01-10T12:22:17.780Z",
+    "duration": 8681.039,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

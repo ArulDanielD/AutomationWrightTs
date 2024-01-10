@@ -25,8 +25,6 @@ test("Frames", async({ page })=>
     const framess=innerframe?.locator("//input[@name='email']");
     framess?.fill("DANIEL@GMAIL.COM");
     await page.waitForTimeout(3000);
-
-
 })
 
 test.only("Interact With Frame",async ({ page }) => {

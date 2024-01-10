@@ -1,5 +1,6 @@
 import { chromium ,test} from "@playwright/test";
-import moment from "moment";
+
+
 test("Date-Picker", async ({ page})=>
 {
     let date="2011-01-20"
@@ -36,7 +37,7 @@ test("Calendar demo using moment", async ({ page }) => {
         const next = page.locator("(//table[@class='table-condensed']//th[@class='next'])[1]");
 
         // let dateToSelect: string = "May 2019";
-        const thisMonth = moment(dateToSelect, "MMMM YYYY").isBefore();
+        const thisMonth =moment(dateToSelect, "MMMM YYYY").isBefore();
         console.log("this month? " + thisMonth);
         while (await mmYY.textContent() != dateToSelect) {
             if (thisMonth) {
