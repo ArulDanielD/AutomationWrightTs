@@ -8,7 +8,21 @@ test("Select dropdown", async({ page})=>
     })
 
     await page.waitForTimeout(3000);
-
+    test("dropdown", async ({ page }) => {
+        await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo");
+        await selectCountry("India");
+        await selectCountry("Denmark");
+        await selectCountry("South Africa");
+        // await page.waitForTimeout(3000)
+    
+        async function selectCountry(countryName) {
+            await page.click("#country+span");  //  line number 28
+            await page.locator("ul#select2-country-results") // line 30
+                .locator("li", {
+                    hasText: countryName
+                }).click();
+        }
+    })
 //Multi select option
   await page.selectOption("#multi-select", [{
     label:"Texas"}
@@ -32,18 +46,5 @@ test("Bootstrap dropdown", async ({ page }) => {
     await page.waitForTimeout(10000);
 })
 
-test.only("Bootstrap dropdown", async ({ page }) => {
-    await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo");
-    await selectCountry("India");
-    await selectCountry("Denmark");
-    await selectCountry("South Africa");
-    // await page.waitForTimeout(3000)
 
-    async function selectCountry(countryName) {
-        await page.click("#country+span");
-        await page.locator("ul#select2-country-results")
-            .locator("li", {
-                hasText: countryName
-            }).click();
-    }
-})
+

@@ -47,7 +47,7 @@
         "testDir": "e:/AutomationPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/select.test.ts"
+          "tests/frame.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\select.test.ts",
-      "file": "tests/select.test.ts",
+      "title": "tests\\frame.test.ts",
+      "file": "tests/frame.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Bootstrap dropdown",
+          "title": "Frames",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,22 +80,26 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 22176,
+                  "duration": 13138,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "TOtal count of frames: 22\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-08T11:58:06.685Z",
+                  "startTime": "2024-01-10T04:41:32.231Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-select-Bootstrap-dropdown\\test-finished-1.png"
+                      "path": "e:\\AutomationPlaywright\\test-results\\tests-frame-Frames\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "e:\\AutomationPlaywright\\test-results\\tests-select-Bootstrap-dropdown\\video.webm"
+                      "path": "e:\\AutomationPlaywright\\test-results\\tests-frame-Frames\\video.webm"
                     }
                   ]
                 }
@@ -103,18 +107,18 @@
               "status": "expected"
             }
           ],
-          "id": "6cba8bde468bb163f809-61cc326ed87c06b234f6",
-          "file": "tests/select.test.ts",
-          "line": 26,
-          "column": 6
+          "id": "fff2b3a5756d8dacc7f1-4108898b4d0dfc80fd62",
+          "file": "tests/frame.test.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-08T11:58:05.844Z",
-    "duration": 23740.159000000003,
+    "startTime": "2024-01-10T04:41:30.910Z",
+    "duration": 15781.599000000002,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
